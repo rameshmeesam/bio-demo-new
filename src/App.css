@@ -105,4 +105,17 @@
   cursor: pointer;
 }
 
+@media (max-width: 600px)
+{
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .col-lg-3 {
+    order: 2;
+  }
+
+}
